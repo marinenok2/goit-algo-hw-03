@@ -15,3 +15,5 @@ def normalize_phone(phone_number):
 
     # Якщо коду немає, додаємо український +38.
     return "+38" + digits
+
+print(normalize_phone("(050)578-90-45"))
